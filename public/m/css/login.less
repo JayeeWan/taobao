@@ -1,0 +1,33 @@
+.login{
+    &::after{
+        display: none;
+    }
+    .login-button{
+        height: auto;
+        padding: 0 10px;
+        &::after{
+            display: none;
+        }
+        button{
+            display: block;
+            width: 100%;
+            margin-top: 20px;
+            background-color: #FF5000;
+            border: 1px solid #FF5000;
+        }
+    }
+    .register{
+        display: block;
+        text-align: right;
+        padding-right: 10px;
+        margin-top: 20px;
+        color: #FF5000;
+    }
+    .getCode{
+        position:absolute;
+        right: 10px;
+        top: 50%;
+        color: #FF5000;
+        transform: translateY(-50%);
+    }
+}

@@ -16,8 +16,15 @@ ul{
 img{
     vertical-align: top;
 }
+html,body{
+    height: 100%;
+}
 .mui-content{
-    background-color: #fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f5f5f5;
 }
 .header,.footer{
     background-color: #FF5000;
@@ -33,4 +40,8 @@ img{
 }
 .footer .mui-tab-item.mui-active{
     color: yellow;
+}
+.mui-scroll-wrapper{
+	top:44px;
+	bottom:50px;
 }

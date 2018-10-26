@@ -20,7 +20,7 @@ function getCheckCode(){
 		type:"get",
 		url:"/user/vCode",
 		success:function(result){
-			alert(result.vCode)
+			console.log(result.vCode);
 		}
 	});
 }

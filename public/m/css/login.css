@@ -1,0 +1,31 @@
+.login::after {
+  display: none;
+}
+.login .login-button {
+  height: auto;
+  padding: 0 10px;
+}
+.login .login-button::after {
+  display: none;
+}
+.login .login-button button {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  background-color: #FF5000;
+  border: 1px solid #FF5000;
+}
+.login .register {
+  display: block;
+  text-align: right;
+  padding-right: 10px;
+  margin-top: 20px;
+  color: #FF5000;
+}
+.login .getCode {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  color: #FF5000;
+  transform: translateY(-50%);
+}
