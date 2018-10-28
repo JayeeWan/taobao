@@ -52,6 +52,14 @@ $(function () {
         })
     });
 
-    $('#getCheckCode').on('tap', getCheckCode);
+    $('#getCheckCode').on('tap', function () {
+        $.ajax({
+            type: "get",
+            url: "/user/vCodeForUpdatePassword",
+            success: function (result) {
+                console.log(result.vCode);
+            }
+        });
+    });
 
 })

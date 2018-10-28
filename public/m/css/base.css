@@ -1,47 +1,100 @@
-body{
-    background-color: #fff;
-    font-size: 14px;
+body {
+  background-color: #fff;
+  font-size: 14px;
 }
-a{
-    color: #000;
-    text-decoration: none;
+a {
+  color: #000;
+  text-decoration: none;
 }
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
-img{
-    vertical-align: top;
+img {
+  vertical-align: top;
 }
-html,body{
-    height: 100%;
+html,
+body {
+  height: 100%;
 }
-.mui-content{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #f5f5f5;
+.mui-content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f5f5f5;
 }
-.header,.footer{
-    background-color: #FF5000;
+.header,
+.footer {
+  background-color: #FF5000;
 }
-.header .mui-title{
-    color: #fff;
+.header .mui-title {
+  color: #fff;
 }
-.header .mui-icon{
-    color: #fff;
+.header .mui-icon {
+  color: #fff;
 }
-.footer .mui-tab-item{
-    color: #fff;
+.footer .mui-tab-item {
+  color: #fff;
 }
-.footer .mui-tab-item.mui-active{
-    color: yellow;
+.footer .mui-tab-item.mui-active {
+  color: yellow;
 }
-.mui-scroll-wrapper{
-	top:44px;
-	bottom:50px;
+.mui-scroll-wrapper {
+  top: 44px;
+  bottom: 50px;
+}
+.product {
+  padding: 0 10px;
+}
+.product .title {
+  width: 100%;
+  margin: 10px 0;
+}
+.product .list li {
+  width: 50%;
+  float: left;
+  padding: 5px;
+}
+.product .list li a {
+  display: block;
+  padding: 0 5px;
+  box-shadow: 0 0 5px #ccc;
+  overflow: hidden;
+}
+.product .list li a img {
+  width: 100%;
+}
+.product .list li a .name {
+  line-height: 18px;
+  display: block;
+  color: #8f8f94;
+  text-align: center;
+  padding: 6px;
+  height: 44px;
+  overflow: hidden;
+}
+.product .list li a p {
+  font-size: 12px;
+  text-align: center;
+}
+.product .list li a p span:first-child {
+  color: #f30;
+  margin-right: 2px;
+}
+.product .list li a p span:last-child {
+  color: #ccc;
+  text-decoration: line-through;
+  margin-left: 2px;
+}
+.product .list li a .buy-now {
+  background-color: #ff5000;
+  color: #fff;
+  margin: 0 auto;
+  border: none;
+  display: block;
+  margin-bottom: 10px;
 }
