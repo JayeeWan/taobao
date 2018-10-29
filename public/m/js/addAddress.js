@@ -30,7 +30,6 @@ $(function () {
             url: '/address/queryAddress',
             method: 'get',
             success: function (result) {
-
                 for (var i = 0; i < result.length; i++) {
 
                     if (result[i].id == getParamsByUrl(location.href, 'id')) {
